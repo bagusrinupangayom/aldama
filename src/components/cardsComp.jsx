@@ -7,8 +7,8 @@ const CardsComp = () => {
         <>
             <div className="bg-white py-[66px]">
                 <div className="px-8 py-6 mx-auto max-w-screen-2xl md:px-16">
-                    <div className="grid gap-8 md:grid-cols-3">
-                        <div className="flex flex-col w-full p-4 duration-300 rounded-lg shadow-xl hover:scale-105 border border-slate-100 hover:bg-slate-100">
+                    <div className="grid gap-12 mt-[66px] md:grid-cols-3">
+                        <div className="flex flex-col w-full p-4 duration-300 my-6 rounded-lg shadow-xl hover:scale-105 border border-slate-100 hover:bg-slate-100">
                             <img src={Single} className="w-20 mx-auto mt-[-3rem] bg-white rounded-md" alt="Single" />
 
                             <h2 className="py-8 text-2xl font-bold text-center ">Single User</h2>
@@ -26,7 +26,7 @@ const CardsComp = () => {
                             </button>
                         </div>
 
-                        <div className="flex flex-col w-full p-4 duration-300 rounded-lg shadow-xl scale-105 border border-slate-100 bg-slate-100">
+                        <div className="flex flex-col w-full p-4 duration-300 rounded-lg shadow-xl scale-105 border border-slate-100 bg-slate-100 my-6">
                             <img src={Double} className="w-20 mx-auto mt-[-3rem] bg-white rounded-md" alt="Single" />
 
                             <h2 className="py-8 text-2xl font-bold text-center ">Double User</h2>
@@ -44,7 +44,7 @@ const CardsComp = () => {
                             </button>
                         </div>
 
-                        <div className="flex flex-col w-full p-4 duration-300 rounded-lg shadow-xl hover:scale-105 border border-slate-100 hover:bg-slate-100">
+                        <div className="flex flex-col w-full p-4 duration-300 rounded-lg shadow-xl hover:scale-105 border border-slate-100 hover:bg-slate-100 my-6">
                             <img src={Triple} className="w-20 mx-auto mt-[-3rem] bg-white rounded-md" alt="Single" />
 
                             <h2 className="py-8 text-2xl font-bold text-center ">Triple User</h2>

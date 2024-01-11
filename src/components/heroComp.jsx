@@ -3,9 +3,9 @@ import Typed from 'react-typed';
 const HeroComp = () => {
     return (
         <>
-            <div className="text-white py-[66px]">
-                <div className="mx-auto max-w-4xl py-6 px-8 md:px-16">
-                    <div className="text-center mt-[12px] mx-auto flex flex-col">
+            <div className="text-white">
+                <div className="mx-auto max-w-4xl py-4 px-8 md:px-16">
+                    <div className="text-center mt-[66px] mx-auto h-screen flex flex-col">
                         <p className="text-teal-600 font-bold">SPEEDING WITH DATA ANALYTICS</p>
 
                         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">Speed with data</h1>
