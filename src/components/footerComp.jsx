@@ -15,11 +15,11 @@ const FooterComp = () => {
                             </p>
 
                             <div className="flex justify-between md:w-[75%] my-6">
-                                <FaFacebookSquare size={30} className="cursor-pointer" />
-                                <FaInstagramSquare size={30} className="cursor-pointer" />
-                                <FaTwitterSquare size={30} className="cursor-pointer" />
-                                <FaYoutubeSquare size={30} className="cursor-pointer" />
-                                <FaWhatsappSquare size={30} className="cursor-pointer" />
+                                <FaFacebookSquare size={30} className="transition duration-300 cursor-pointer hover:text-teal-600" />
+                                <FaInstagramSquare size={30} className="transition duration-300 cursor-pointer hover:text-teal-600" />
+                                <FaTwitterSquare size={30} className="transition duration-300 cursor-pointer hover:text-teal-600" />
+                                <FaYoutubeSquare size={30} className="transition duration-300 cursor-pointer hover:text-teal-600" />
+                                <FaWhatsappSquare size={30} className="transition duration-300 cursor-pointer hover:text-teal-600" />
                             </div>
                         </div>
 
@@ -27,44 +27,46 @@ const FooterComp = () => {
                             <div>
                                 <h2 className="font-medium text-gray-400">Solutions</h2>
                                 <ul>
-                                    <li className="my-4 text-sm cursor-pointer">Analytics</li>
-                                    <li className="my-4 text-sm cursor-pointer">Marketing</li>
-                                    <li className="my-4 text-sm cursor-pointer">Commerce</li>
-                                    <li className="my-4 text-sm cursor-pointer">Insights</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Analytics</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Marketing</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Commerce</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Insights</li>
                                 </ul>
                             </div>
                             <div>
                                 <h2 className="font-medium text-gray-400">Support</h2>
                                 <ul>
-                                    <li className="my-4 text-sm cursor-pointer">Pricing</li>
-                                    <li className="my-4 text-sm cursor-pointer">Documentation</li>
-                                    <li className="my-4 text-sm cursor-pointer">Guides</li>
-                                    <li className="my-4 text-sm cursor-pointer">API Status</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Pricing</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Documentation</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Guides</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">API Status</li>
                                 </ul>
                             </div>
                             <div>
                                 <h2 className="font-medium text-gray-400">Company</h2>
                                 <ul>
-                                    <li className="my-4 text-sm cursor-pointer">About</li>
-                                    <li className="my-4 text-sm cursor-pointer">Blog</li>
-                                    <li className="my-4 text-sm cursor-pointer">Careers</li>
-                                    <li className="my-4 text-sm cursor-pointer">Press</li>
-                                    <li className="my-4 text-sm cursor-pointer">Contacts</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">About</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Blog</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Careers</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Press</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Contacts</li>
                                 </ul>
                             </div>
                             <div>
                                 <h2 className="font-medium text-gray-400">Legal</h2>
                                 <ul>
-                                    <li className="my-4 text-sm cursor-pointer">Claim</li>
-                                    <li className="my-4 text-sm cursor-pointer">Policy</li>
-                                    <li className="my-4 text-sm cursor-pointer">Terms</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Claim</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Policy</li>
+                                    <li className="my-4 text-sm transition duration-300 cursor-pointer hover:text-teal-600">Terms</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                     <div className="mx-auto text-center">
-                        <p className="font-semibold text-gray-500">built by Bagus Rinu</p>
+                        <p className="font-semibold text-gray-500">
+                            built by <span className="transition duration-300 cursor-pointer hover:text-teal-600">Bagus Rinu</span>
+                        </p>
                     </div>
                 </div>
             </div>
