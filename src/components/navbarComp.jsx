@@ -12,15 +12,15 @@ const NavbarComp = () => {
 
     return (
         <>
-            <div className="text-white">
-                <div className="px-8 py-4 mx-auto max-w-screen-4xl md:py-0 md:px-16 bg-slate-800 ">
-                    <div className="relative flex items-center py-2 ">
+            <div className={`text-white bg-slate-800 sticky top-0 z-50`}>
+                <div className="px-8 py-4 mx-auto max-w-screen-2xl md:py-0 md:px-16 ">
+                    <div className="relative flex items-center md:py-2 ">
                         <div className="items-center inline-block">
                             <h1 className="text-3xl font-bold text-teal-600 transition duration-300 cursor-pointer hover:text-teal-800">ALDAMA</h1>
                         </div>
 
                         <div className="absolute top-0 right-0 items-center inline-block ">
-                            <ul className="hidden md:flex">
+                            <ul className={`hidden md:flex ${nav ? 'opacity-0' : 'opacity-100'}`}>
                                 <li className="p-4 font-medium transition duration-300 cursor-pointer hover:text-teal-600">Home</li>
                                 <li className="p-4 font-medium transition duration-300 cursor-pointer hover:text-teal-600">Company</li>
                                 <li className="p-4 font-medium transition duration-300 cursor-pointer hover:text-teal-600">Resources</li>
@@ -29,7 +29,7 @@ const NavbarComp = () => {
                             </ul>
                         </div>
 
-                        <div className="absolute top-0 right-0 block py-3 cursor-pointer md:hidden" onClick={handleNav}>
+                        <div className="absolute top-0 right-0 block pt-1 cursor-pointer md:hidden" onClick={handleNav}>
                             {nav ? <IoCloseSharp size={36} className="self-center" /> : <GiHamburgerMenu size={31} className="self-center" />}
                         </div>
 
