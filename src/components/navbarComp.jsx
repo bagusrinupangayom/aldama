@@ -15,7 +15,7 @@ const NavbarComp = () => {
             <div className="text-white">
                 <div className="px-8 py-4 mx-auto max-w-screen-2xl md:py-0 md:px-16 ">
                     <div className="flex items-center ">
-                        <h1 className="w-full text-3xl font-bold text-teal-600">ALDAMA</h1>
+                        <h1 className="w-full text-3xl font-bold text-teal-600 transition duration-300 cursor-pointer hover:text-teal-800">ALDAMA</h1>
 
                         <ul className="hidden md:flex">
                             <li className="p-4 font-medium transition duration-300 cursor-pointer hover:text-teal-600">Home</li>
