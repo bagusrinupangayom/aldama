@@ -1,9 +1,71 @@
+import { FaWhatsappSquare, FaFacebookSquare, FaYoutubeSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa';
+
 const FooterComp = () => {
     return (
         <>
-            <div>
-                <div>
-                    <p>footer</p>
+            <div className="text-white">
+                <div className="px-8 py-8 mx-auto max-w-screen-2xl md:px-16">
+                    <div className="grid gap-6 md:grid-cols-3 md:gap-12">
+                        <div>
+                            <h1 className="w-full text-3xl font-bold text-teal-600">ALDAMA.</h1>
+
+                            <p className="py-4">
+                                ALDAMA specializes in advanced analytics, providing in-depth insights for strategic decision-making. Our commitment to excellence ensures optimal performance for your
+                                business.
+                            </p>
+
+                            <div className="flex justify-between md:w-[75%] my-6">
+                                <FaFacebookSquare size={30} className="cursor-pointer" />
+                                <FaInstagramSquare size={30} className="cursor-pointer" />
+                                <FaTwitterSquare size={30} className="cursor-pointer" />
+                                <FaYoutubeSquare size={30} className="cursor-pointer" />
+                                <FaWhatsappSquare size={30} className="cursor-pointer" />
+                            </div>
+                        </div>
+
+                        <div className="flex justify-between md:mt-9 md:col-span-2">
+                            <div>
+                                <h2 className="font-medium text-gray-400">Solutions</h2>
+                                <ul>
+                                    <li className="my-4 text-sm cursor-pointer">Analytics</li>
+                                    <li className="my-4 text-sm cursor-pointer">Marketing</li>
+                                    <li className="my-4 text-sm cursor-pointer">Commerce</li>
+                                    <li className="my-4 text-sm cursor-pointer">Insights</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 className="font-medium text-gray-400">Support</h2>
+                                <ul>
+                                    <li className="my-4 text-sm cursor-pointer">Pricing</li>
+                                    <li className="my-4 text-sm cursor-pointer">Documentation</li>
+                                    <li className="my-4 text-sm cursor-pointer">Guides</li>
+                                    <li className="my-4 text-sm cursor-pointer">API Status</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 className="font-medium text-gray-400">Company</h2>
+                                <ul>
+                                    <li className="my-4 text-sm cursor-pointer">About</li>
+                                    <li className="my-4 text-sm cursor-pointer">Blog</li>
+                                    <li className="my-4 text-sm cursor-pointer">Careers</li>
+                                    <li className="my-4 text-sm cursor-pointer">Press</li>
+                                    <li className="my-4 text-sm cursor-pointer">Contacts</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 className="font-medium text-gray-400">Legal</h2>
+                                <ul>
+                                    <li className="my-4 text-sm cursor-pointer">Claim</li>
+                                    <li className="my-4 text-sm cursor-pointer">Policy</li>
+                                    <li className="my-4 text-sm cursor-pointer">Terms</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="mx-auto text-center">
+                        <p className="font-semibold text-gray-500">built by Bagus Rinu</p>
+                    </div>
                 </div>
             </div>
         </>

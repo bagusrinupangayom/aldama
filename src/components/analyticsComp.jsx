@@ -16,8 +16,8 @@ const AnalyticsComp = () => {
                             <h1 className="py-2 text-2xl font-bold md:text-4xl sm:text-3xl md:py-6">Manage Data Analytics Certrally</h1>
 
                             <p className="mb-3">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quo alias ex consectetur praesentium quis facilis beatae atque porro quia tempora totam quae harum
-                                consequatur rerum fuga, delectus omnis. Corporis.
+                                Centralized Data Analytics management involves the centralized collection, integration, and analysis of data from various sources. This approach enables organizations
+                                to optimize data governance policies, provide centralized access for analytics, and ensure consistent security and data quality.
                             </p>
 
                             <button type="button" className="text-teal-600 bg-black w-[200px] rounded-md font-medium mx-auto md:mx-0 my-6 py-3 hover:opacity-90 transition duration-300">
