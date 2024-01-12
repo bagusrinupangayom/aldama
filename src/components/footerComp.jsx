@@ -70,6 +70,8 @@ const FooterComp = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Done */}
         </>
     );
 };
